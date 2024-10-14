@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+/*-------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+:root {
+    --main-backgorund: #1E1D1E;
+    --color-text: #ffffff;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: var(--main-backgorund);
+    color: var(--color-text);
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+
+:root {
+    /* Cores principais */
+    --color-background: #1a1a1a; /* Cor de fundo principal */
+    --color-text: #ffffff;        /* Cor de texto padrão (branco) */
+    --color-primary: #d32f2f;     /* Cor de destaque, botões (vermelho) */
+    --color-secondary: #333333;   /* Cor de fundo secundário para seções */
+    --color-border: #444444;      /* Cor para bordas ou contornos */
+    --color-button-hover: #b71c1c; /* Cor de hover no botão */
+}
+
+
