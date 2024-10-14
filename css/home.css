@@ -27,6 +27,7 @@ html {
 :root {
     --main-backgorund: #1E1D1E;
     --color-text: #ffffff;
+    --color-details: #D31B23;
 }
 
 body{
@@ -38,9 +39,21 @@ body{
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 15px 30px;
 }
 
+.logo p{
+    font-weight: bold;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 15px; /* Espaço entre os botões */
+}
+
+nav button {
+    padding: 10px 20px;
+}
 
 
 :root {
