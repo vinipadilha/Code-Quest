@@ -138,7 +138,7 @@ body{
     flex-direction: column;
     align-items: center; 
     justify-content: center; 
-    height: 120vh;
+    height: 160vh;
 }
 
 
@@ -153,6 +153,9 @@ body{
     width: 80vw;
     border-radius: 20px;
     margin-bottom: 1vh;
+    padding: 8vh 12vh;
+    display: flex;
+
 }
 
 
@@ -162,6 +165,7 @@ body{
 
 .block2{
     margin-right: 0.5vw;
+    padding: 6vh 10vh;
 }
 
 .block3{
@@ -170,7 +174,7 @@ body{
 
 .block2, .block3 {
     background-color: var(--secondary-bg);
-    height: 58vh;
+    height: 89vh;
     width: 39vw;
     border-radius: 20px;
     margin-top: 1vh;
@@ -178,13 +182,66 @@ body{
 
 .logo-expand{
     background-color: var(--color-details);
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.logo-expand img {
+    width: 100%;
+    height: auto; 
+    
+}
+
+.title-block1 p{
+    font-weight: bold;
+    font-size: 1.8rem;
 }
 
 
+.title-block1{
+    margin-top: 15px;
+}
 
+.body-block1{
+    margin-top: 10px;
+    margin-right: 10vw;
+}
+    
+.img-block1 {
+    width: 75%;
+    height: auto;
+    
+}
 
+.img-block1 img {
+    border-radius: 20px;
+}
+
+.title-block2 p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.title-block2{
+    margin-top: 12px;
+}
+
+.body-block2{
+    margin-top: 10px;
+    font-size: 1rem;
+    margin-bottom: 2vh;
+}
+
+.img-block2 {
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+.img-block2 img {
+    border-radius: 20px;
+}
 
 
 
