@@ -31,6 +31,7 @@ html {
     --color-text: #ffffff;
     --color-details: #D31B23;
     --main-font: "Inter";
+    --secondary-bg: #272525;
 }
 
 body{
@@ -80,9 +81,9 @@ body{
 }
 
 .nav-buttons button {
-    padding: 5px 40px;
+    padding: 5px 45px;
     font-size: 1em;
-    border-radius: 10px;
+    border-radius: 8px;
     border: 1.5px solid var(--color-details);
     cursor: pointer;
     font-family: var(--main-font);
@@ -128,7 +129,62 @@ body{
 }
 
 .start-btn button:hover{
-    background-color: #1E1D1E;
+    background-color: var(--main-backgorund);
     transition: all 0.3s ease;
 }
+
+.content-blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 120vh;
+}
+
+
+.main-block {
+    align-items: center;
+    justify-content: center;
+}
+
+.block1 {
+    background-color: var(--secondary-bg);
+    height: 59vh;
+    width: 80vw;
+    border-radius: 20px;
+    margin-bottom: 1vh;
+}
+
+
+.other-blocks{
+    display: flex;
+}
+
+.block2{
+    margin-right: 0.5vw;
+}
+
+.block3{
+    margin-left: 0.5vw;
+}
+
+.block2, .block3 {
+    background-color: var(--secondary-bg);
+    height: 58vh;
+    width: 39vw;
+    border-radius: 20px;
+    margin-top: 1vh;
+}
+
+.logo-expand{
+    background-color: var(--color-details);
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
+
 
