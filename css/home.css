@@ -156,6 +156,7 @@ body{
     padding: 8vh 12vh;
     display: flex;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    
 
 }
 
@@ -245,6 +246,75 @@ body{
 .img-block2 img {
     border-radius: 20px;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh 3vw;
+    margin-top: 10vh;
+}
+
+footer p {
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+
+.title-content-text p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3vh;
+}
+
+.text-content-text p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.content-text {
+    padding: 4vh 15vw;
+    margin-bottom: 5vh;
+}
+
+.languages-content {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card{
+
+    height: auto;
+    width: 30%;
+    cursor: pointer;
+    background-color: var(--secondary-bg);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+    transition: transform 0.3s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Faz o card crescer 5% */
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5); /* Aumenta a sombra */
+}
+
+.card p{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.card img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+}
+
 
 
 
