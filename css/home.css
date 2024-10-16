@@ -155,6 +155,7 @@ body{
     margin-bottom: 1vh;
     padding: 8vh 12vh;
     display: flex;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -170,6 +171,7 @@ body{
 
 .block3{
     margin-left: 0.5vw;
+    padding: 6vh 10vh;
 }
 
 .block2, .block3 {
@@ -178,6 +180,7 @@ body{
     width: 39vw;
     border-radius: 20px;
     margin-top: 1vh;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .logo-expand{
