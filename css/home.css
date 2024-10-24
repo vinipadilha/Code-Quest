@@ -235,14 +235,22 @@ body{
     margin-bottom: 2vh;
 }
 
-.img-block2 {
-    width: 70%;
+.feedback{
+    width: 100%;
     height: auto;
     margin: auto;
+    margin-top: 8vh;
+}
+
+.modules {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    
 }
 
 .img-block2 img {
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 footer {
@@ -272,6 +280,7 @@ footer p {
 .content-text {
     padding: 4vh 15vw;
     margin-bottom: 5vh;
+    margin-top: 10vh;
 }
 
 .languages-content {
