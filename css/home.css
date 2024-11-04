@@ -149,7 +149,7 @@ body{
 
 .block1 {
     background-color: var(--secondary-bg);
-    height: 59vh;
+    height: auto;
     width: 80vw;
     border-radius: 20px;
     margin-bottom: 4vh;
@@ -175,7 +175,7 @@ body{
 
 .block2, .block3 {
     background-color: var(--secondary-bg);
-    height: 89vh;
+    height: auto;
     width: 40vw;
     border-radius: 20px;
     margin-top: 1vh;
@@ -320,6 +320,190 @@ footer p {
     height: auto;
     margin-bottom: 2vh;
     border-radius: 20px;
+}
+
+
+
+/*----------------------------------------------------*/
+/* Responsividade para telas menores que 480px */
+@media screen and (max-width: 550px){
+    .nav-bar {
+    flex-wrap: wrap;
+
+    flex-direction: column; /* Muda para coluna em telas pequenas */
+    align-items: center; /* Centraliza o conteúdo */
+    text-align: center;
+    
+    }
+
+    .start-title p {
+        font-size: 2rem;
+        margin-top: 10vh;
+        padding: 20px;
+    }
+
+    .start {
+        height: auto;
+
+    }
+
+    .start-btn {
+        margin-top: 10px;
+        height: 140px;
+    }
+
+    .start-btn button {
+        width: 70%; /* Ajusta a largura do botão para se adaptar à tela */
+        padding: 10px 0; /* Reduz o padding horizontal para centralizar melhor */
+        margin-top: 0px;
+    }
+
+    .start-title {
+        height: auto;
+    }
+
+    .content-blocks{
+        height: auto;
+    }
+
+    .block1 {
+        padding: 20px;
+        height: auto;
+        margin-bottom: 2vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+    }
+
+    .main-block {
+        height: auto;
+    }
+
+    .title-block1 p{
+        font-size: 1.5rem;
+    }
+
+    .body-block1 {
+        margin-right: 0px;
+    }
+
+    .body-block1 p{
+        font-size: 0.7rem;
+    }
+
+    .logo-expand {
+        height: 40px;
+        width: 40px;
+    }
+
+    .other-blocks {
+        flex-direction: column;
+        display: flex;
+        gap: 2vh;
+    }
+
+
+    .block2, .block3 {
+        width: 80vw;
+        margin-top: 0px;
+        margin-right: 0px;
+        padding: 20px;
+        height: auto;
+
+
+    }
+
+    .body-block2 {
+        margin-bottom: 0px;
+    }
+
+    .body-block2 p {
+        font-size: 0.7rem;
+    }
+
+    .title-block2 p {
+        font-size: 1.5rem;
+    }
+    
+    .img-block2 {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 5vh;
+
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    .img-block2 img {
+        max-width: 100%; 
+        height: auto;
+    }
+
+    .title-content-text p {
+        font-size: 1.6rem;
+    }
+
+    .text-content-text p {
+        font-size: 0.9rem;
+    }
+
+    .content-text {
+        padding: 30px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .languages-content {
+        display: flex;
+        flex-direction: column;
+
+        gap: 4vh;
+    }
+
+    .card {
+        width: 70vw;
+    }
+
+    footer p {
+        font-size: 0.7rem;
+    }
+
+    footer {
+        gap: 2vw;
+    }
+
+
+
+    
+}
+
+
+@media screen and (max-width: 372px) {
+    .nav-buttons {
+        flex-direction: column;
+        width: 100%; 
+        align-items: center; 
+    }
+
+    .btn-login, .btn-signup {
+        width: 80%; 
+        max-width: 200px; 
+    }
+
+    .languages-content {
+        display: flex;
+        flex-direction: column;
+
+        gap: 4vh;
+    }
+
+    .card {
+        width: 80vw;
+    }
+
 }
 
 
